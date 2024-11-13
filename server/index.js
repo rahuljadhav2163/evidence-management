@@ -70,7 +70,7 @@ app.post('/api/registerPoliceStation', async (req, res) => {
 
 
 
-const PORT = 5000;
+const PORT = 8000;
 
 app.listen(PORT, () => {
     console.log(`Your server is running on port ${PORT}`);
